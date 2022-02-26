@@ -1,0 +1,32 @@
+GET http://localhost:5000/api/student
+
+
+###
+POST http://localhost:5000/api/student
+Content-Type: application/json
+
+{
+    "student_id": "5",
+    "student_name": "zafar",
+    "student_age": 25
+}
+
+
+
+###
+DELETE http://localhost:5000/api/student/
+
+
+
+###
+PUT  http://localhost:5000/api/student/
+Content-Type: application/json
+
+
+{
+    "student_name":"Daston",
+    "student_age": 45
+}
+
+###
+GET  http://localhost:5000/api/student/61a334c6e7a006e7fc77dadc
